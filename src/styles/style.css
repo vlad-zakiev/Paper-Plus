@@ -5,6 +5,7 @@
 
 body{
     font-family: 'Playfair Display', serif;
+    background-color: black;
 }
 .container{
     width: 100%;
@@ -46,8 +47,9 @@ body{
     width: 100%;
     height: 800px;
     background-image: url("../images/main_wrapper.jpg");
+    opacity: 0.80;
     background-repeat: no-repeat, no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     display: flex;
     align-items: flex-end;
@@ -60,16 +62,18 @@ body{
     align-items: center;
 }
 .main_wrapper_content_title{
+    text-align: center;
     font-size: 140px;
-    color: #f1f1f1f7;
+    color: #fff;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 50px;
+    line-height: 154px;
 }
 .main_wrapper_content_subtitle{
     font-size: 24px;
     font-weight: 400;
-    color: #f1f1f1f7;
+    color: #fff;
     margin-bottom: 230px;
 }
 .project-btn{
@@ -82,7 +86,7 @@ body{
     color: #ffffff;
     text-transform: uppercase;
     padding: 12px 30px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     cursor: pointer;
     font-family: 'Lato', sans-serif;
 }
@@ -90,4 +94,62 @@ body{
     background-color: #f1f1f1f7 ;
     color: #000;
     transition: 0.3s all;
+}
+.main_wrapper.section_two{
+    background-image: url("../images/section_two.jpg");
+    opacity: 0.80;
+}
+.main_wrapper_content_subtitle.section_two{
+    margin-bottom: 180px;
+}
+.main_wrapper.section_three{
+    background-image: url("../images/section_three.jpg");
+    opacity: 0.80;
+}
+.main_wrapper_content_title.section_three{
+    max-width: 870px;
+}
+.main_wrapper_content_subtitle.section_three{
+    margin-bottom: 120px;
+}
+.main_wrapper.section_four{
+    background-image: url("../images/section_four.jpg");
+    opacity: 0.80;
+}
+.main_wrapper_content_subtitle.section_four{
+    margin-bottom: 120px;
+}
+.main_wrapper.section_five{
+    background-image: url("../images/section_five.jpg");
+    opacity: 0.80;
+}
+.main_wrapper_content_title.section_five{
+    max-width: 870px;
+}
+.main_wrapper_content_subtitle.section_five{
+    margin-bottom: 120px;
+}
+.main_wrapper.call_to_action{
+    background-image: none;
+    background-color: black;
+    opacity: 1;
+    max-height: 435px;
+}
+.main_wrapper_content_title.call_to_action{
+    font-size: 50px;
+    margin-bottom: 0;
+    line-height: 70px;
+}
+.main_wrapper_content_subtitle.call_to_action{
+    font-size: 23px;
+    line-height: 38px;
+    margin-bottom: 50px;
+}
+.project-btn.call_to_action{
+    background-color: #fff;
+    color: black;
+}
+:hover.project-btn.call_to_action{
+    background-color: #000;
+    color: #fff;
 }
